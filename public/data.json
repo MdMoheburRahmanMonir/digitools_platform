@@ -3,7 +3,9 @@
   "data": [
     {
       "id": 1,
+      "img": "/images/writing_2327400 1.png",
       "title": "AI Writing Pro",
+      "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI power.",
       "price": 29,
       "currency": "USD",
       "billing_cycle": "Monthly",
@@ -18,7 +20,9 @@
     },
     {
       "id": 2,
+      "img": "/images/design-tool.png",
       "title": "Design Templates Pack",
+      "description": "Create stunning visuals and marketing assets instantly with our high-quality premium templates.",
       "price": 49,
       "currency": "USD",
       "billing_cycle": "One-Time",
@@ -33,7 +37,9 @@
     },
     {
       "id": 3,
+      "img": "images/camera_8775444 1.png",
       "title": "Premium Stock Assets",
+      "description": "Access millions of high-quality stock assets and marketing media in seconds for your projects.",
       "price": 19,
       "currency": "USD",
       "billing_cycle": "Monthly",
@@ -48,7 +54,9 @@
     },
     {
       "id": 4,
+      "img": "/images/operation.png",
       "title": "Automation Toolkit",
+      "description": "Automate your marketing workflows and generate high-quality results in seconds with AI tools.",
       "price": 79,
       "currency": "USD",
       "billing_cycle": "Monthly",
@@ -63,7 +71,9 @@
     },
     {
       "id": 5,
+      "img": "/images/portfolio.png",
       "title": "Resume Builder Pro",
+      "description": "Generate high-quality, ATS-friendly resumes and professional copies in seconds with smart AI.",
       "price": 15,
       "currency": "USD",
       "billing_cycle": "One-Time",
@@ -78,7 +88,9 @@
     },
     {
       "id": 6,
+      "img": "/images/social-media.png",
       "title": "Social Media Content Kit",
+      "description": "Create high-quality social media posts and viral marketing copy in seconds with advanced AI.",
       "price": 39,
       "currency": "USD",
       "billing_cycle": "Monthly",

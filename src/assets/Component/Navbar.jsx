@@ -2,9 +2,8 @@ import React, { useState } from 'react';
 import { HiOutlineBars3 } from 'react-icons/hi2';
 import { MdOutlineLocalGroceryStore } from "react-icons/md";
 
-const Navbar = () => {
+const Navbar = ({selectedItems}) => {
     const [value, setValue] = useState(false);
-    console.log(value);
     const showNavItem = (value) => {
         setValue(value);
     }
@@ -30,18 +29,22 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className='flex gap-6'>
-                    <button className='flex gap-4 items-center rounded-full cursor-pointer  py-4 px-4  border border-2 border-blue-500  ' ><MdOutlineLocalGroceryStore></MdOutlineLocalGroceryStore>  Login</button>
+                    <div className='relative flex items-center gap-1 border border-2 border-gray-300 rounded-full  px-5'>
+                        <MdOutlineLocalGroceryStore className='text-3xl'></MdOutlineLocalGroceryStore>
+                        {selectedItems.length > 0 ? <span className='absolute top-1 left-9 z-10 text-[12px] text-white rounded-full bg-blue-700 px-1'>{selectedItems.length}</span>: null}
+                        <button className='flex gap-4 items-center rounded-full cursor-pointer  py-3 px-6  ' >  Login</button>
+                    </div>
                     <button className='cursor-pointer bg-linear-500 from-[#4F39F6] to-[#9514FA] text-white py-3 px-6 rounded-full'>Get Started</button>
                 </div>
             </div>
             {
                 value ?
-                    <ul className='lg:hidden absolute left-[75px] flex-col gap-5 text-gray-700 font-light   lg:flex'>
-                        <li className='cursor-pointer'>Products </li>
-                        <li className='cursor-pointer'>Features </li>
-                        <li className='cursor-pointer'>Pricing </li>
-                        <li className='cursor-pointer'>Testimonials </li>
-                        <li className='cursor-pointer'>FAQ </li>
+                    <ul className='lg:hidden absolute left-[75px] flex-col gap-5 text-gray-700 font-light   lg:flex bg-linear-500 from-[#4F39F6] to-[#9514FA] p-3 rounded-2xl'>
+                        <li className='cursor-pointer hover:bg-blue-400 text-white rounded-2xl p-2'>Products </li>
+                        <li className='cursor-pointer hover:bg-blue-400 text-white rounded-2xl p-2'>Features </li>
+                        <li className='cursor-pointer hover:bg-blue-400 text-white rounded-2xl p-2'>Pricing </li>
+                        <li className='cursor-pointer hover:bg-blue-400 text-white rounded-2xl p-2'>Testimonials </li>
+                        <li className='cursor-pointer hover:bg-blue-400 text-white rounded-2xl p-2'>FAQ </li>
                     </ul> : null
             }
         </div>

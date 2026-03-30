@@ -1,4 +1,4 @@
-import img from '../Images/banner.png'
+ 
 import { VscCircleLargeFilled } from "react-icons/vsc";
 import { IoPlayOutline } from "react-icons/io5";
 
@@ -15,12 +15,12 @@ const Banner = () => {
                     Explore Products
                 </p>
                 <div className='flex gap-3'>
-                    <button className='text-white bg-linear-500 from-[#4F39F6] to-[#9514FA] p-4 rounded-full font-bold'>Explore Products</button>
-                    <button className='flex items-center gap-1 border border-2 border-blue-500 rounded-full p-4 font-bold bg-linear-500 from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text'><IoPlayOutline className='text-blue-600 font-bold'/> Watch Demo</button>
+                    <button className='text-white bg-linear-500 from-[#4F39F6] to-[#9514FA] py-3 px-4 rounded-full font-bold'>Explore Products</button>
+                    <button className='flex items-center gap-1 border border-2 border-blue-500 rounded-full py-3 px-4 font-bold bg-linear-500 from-[#4F39F6] to-[#9514FA] text-transparent bg-clip-text'><IoPlayOutline className='text-blue-600 font-bold'/> Watch Demo</button>
                 </div>
             </div>
             <div>
-                <img src={img} alt="Hero" />
+                <img src='/images/banner.png' alt="Hero" className="shadow-lg hover:scale-105 duration-1400"/>
             </div>
         </div>
     );
