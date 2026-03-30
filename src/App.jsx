@@ -1,10 +1,17 @@
 import './App.css'
+import Banner from './assets/Component/Banner'
+import Digitaltoolsitem from './assets/Component/Digitaltoolsitem'
+import Navbar from './assets/Component/Navbar'
+import Performance from './assets/Component/Performance'
 
 function App() { 
 
   return (
     <>
-       <h1 className='text-3xl btn'>This is react project running </h1>
+      <Navbar></Navbar>
+      <Banner></Banner>
+      <Performance></Performance> 
+      
     </>
   )
 }
