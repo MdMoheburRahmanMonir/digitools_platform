@@ -1,0 +1,95 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": 1,
+      "title": "AI Writing Pro",
+      "price": 29,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "Best Seller",
+      "badge_color": "Yellow",
+      "features": [
+        "Unlimited AI generations",
+        "50+ writing templates",
+        "Grammar checker"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 2,
+      "title": "Design Templates Pack",
+      "price": 49,
+      "currency": "USD",
+      "billing_cycle": "One-Time",
+      "badge": "Popular",
+      "badge_color": "Blue",
+      "features": [
+        "2000+ premium templates",
+        "Monthly updates",
+        "Commercial license"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 3,
+      "title": "Premium Stock Assets",
+      "price": 19,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "New",
+      "badge_color": "Green",
+      "features": [
+        "10M+ assets",
+        "Commercial use",
+        "No attribution"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 4,
+      "title": "Automation Toolkit",
+      "price": 79,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "Popular",
+      "badge_color": "Blue",
+      "features": [
+        "50+ automations",
+        "API access",
+        "Custom workflows"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 5,
+      "title": "Resume Builder Pro",
+      "price": 15,
+      "currency": "USD",
+      "billing_cycle": "One-Time",
+      "badge": "New",
+      "badge_color": "Green",
+      "features": [
+        "100+ templates",
+        "ATS optimization",
+        "Export to PDF"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 6,
+      "title": "Social Media Content Kit",
+      "price": 39,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "Best Seller",
+      "badge_color": "Yellow",
+      "features": [
+        "5000+ assets",
+        "Scheduler included",
+        "Analytics dashboard"
+      ],
+      "button_text": "Buy Now"
+    }
+  ]
+}

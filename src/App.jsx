@@ -11,7 +11,7 @@ function App() {
       <Navbar></Navbar>
       <Banner></Banner>
       <Performance></Performance> 
-      
+      <Digitaltoolsitem></Digitaltoolsitem>
     </>
   )
 }
