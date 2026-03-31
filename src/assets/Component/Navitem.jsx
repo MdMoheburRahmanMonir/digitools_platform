@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { IoCheckmarkSharp } from "react-icons/io5";
+import { toast } from 'react-toastify';
 
 
 const Navitem = ({ i, selectedItems, setSelectedItems }) => {
     const [btnDisable, setBtnDisable] = useState(false);
-    const hendebtn = (i, value) => {
+    const hendebtn = (i, value, price) => {
         setSelectedItems([...selectedItems, i]); 
         setBtnDisable(value);
+        toast(`Item added to cart! & Price is: $${price}`);
     }
     const { id, title, description, img, price, badge, features, button_text } = i;
     return (
@@ -31,11 +33,11 @@ const Navitem = ({ i, selectedItems, setSelectedItems }) => {
             </div>
             <button
                 className='btn rounded-full bg-linear-500 from-[#4F39F6] to-[#9514FA] text-white px-8 py-[15px] w-full hover:scale-x-105 duration-300 disabled:bg-gray-400 disabled:cursor-not-allowed'
-                onClick={() => hendebtn(i, true)}
+                onClick={() => hendebtn(i, true, price)}
                 disabled={btnDisable}
             >
-                {btnDisable ? 'Added to Cart' : button_text}
-            </button>
+                {btnDisable ? `Added to Cart ` : button_text}
+            </button> 
         </div>
     )
 };

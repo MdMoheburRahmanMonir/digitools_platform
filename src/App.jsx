@@ -4,6 +4,9 @@ import Banner from './assets/Component/Banner'
 import Digitaltoolsitem from './assets/Component/Digitaltoolsitem'
 import Navbar from './assets/Component/Navbar'
 import Performance from './assets/Component/Performance'
+import PricingSection from './assets/Component/PricingSection'
+import { ToastContainer } from 'react-toastify';
+import GetstartedStapes from './assets/Component/GetstartedStapes'
 
 const data = async () => {
   const response = await fetch('./data.json');
@@ -16,6 +19,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer />
       <Navbar
         selectedItems={selectedItems}
       ></Navbar>
@@ -26,6 +30,8 @@ function App() {
         selectedItems={selectedItems}
         setSelectedItems={setSelectedItems}
       ></Digitaltoolsitem>
+      <GetstartedStapes></GetstartedStapes>
+      <PricingSection></PricingSection>
     </>
   )
 }
