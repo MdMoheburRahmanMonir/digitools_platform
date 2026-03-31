@@ -6,7 +6,7 @@ const Selectedcardsection = ({ selectedItems, setSelectedItems }) => {
     const removeSingleData = (id) => {
         const remainingData = selectedItems.filter(item => item.id !== id);
         setSelectedItems(remainingData);
-        toast('Item removed from cart! 🗑️');
+        toast('🗑️ Item removed from cart! ');
     }
 
 
@@ -14,7 +14,7 @@ const Selectedcardsection = ({ selectedItems, setSelectedItems }) => {
 
     const procideToCheckout = () => {
         setSelectedItems([]);
-        toast('All items removed from cart! 👽');
+        toast('👽 All items removed from cart! ');
     }
 
     return (

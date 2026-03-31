@@ -7,6 +7,7 @@ import Performance from './assets/Component/Performance'
 import PricingSection from './assets/Component/PricingSection'
 import { ToastContainer } from 'react-toastify';
 import GetstartedStapes from './assets/Component/GetstartedStapes'
+import WorkflowSection from './assets/Component/WorkflowSection'
 
 const data = async () => {
   const response = await fetch('./data.json');
@@ -32,6 +33,7 @@ function App() {
       ></Digitaltoolsitem>
       <GetstartedStapes></GetstartedStapes>
       <PricingSection></PricingSection>
+      <WorkflowSection></WorkflowSection>
     </>
   )
 }

@@ -8,7 +8,7 @@ const Navitem = ({ i, selectedItems, setSelectedItems }) => {
     const hendebtn = (i, value, price) => {
         setSelectedItems([...selectedItems, i]); 
         setBtnDisable(value);
-        toast(`Item added to cart! & Price is: $${price}`);
+        toast(`📈 Item added to cart! & Price is:💵 $${price}`);
     }
     const { id, title, description, img, price, badge, features, button_text } = i;
     return (
