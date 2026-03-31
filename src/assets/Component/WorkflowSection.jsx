@@ -3,7 +3,7 @@ import { toast } from 'react-toastify';
 
 const WorkflowSection = () => {
     return (
-        <div className='w-full bg-linear-500 from-[#4F39F6] to-[#9514FA] text-white'>
+        <div data-aos="zoom-out-right" data-aos-delay={100} className='w-full bg-linear-500 from-[#4F39F6] to-[#9514FA] text-white'>
             <div className='w-10/12 mx-auto flex flex-col gap-2 py-[120px]'>
                 <div className='text-center space-y-4 mb-10 space-y-4'>
                     <h1 className='font-extrabold text-5xl  '>Ready to Transform Your Workflow?</h1>

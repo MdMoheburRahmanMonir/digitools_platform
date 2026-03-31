@@ -6,8 +6,8 @@ const Footer = () => {
     return (
         <div className="w-full bg-[#101727]">
             <div className='w-10/12 mx-auto bg-[#1B1B1B] text-white py-16 px-6 p-[120px]  flex flex-col md:flex-row justify-between gap-10'>
-                <div className="grid gap-5 lg:grid-cols-5 md:grid-cols-3 sm:grid-cols-2 justify-between w-full" >
-                    <div className="space-y-4">
+                <div className="grid gap-5 lg:grid-cols-6 md:grid-cols-3 sm:grid-cols-2 justify-between w-full" >
+                    <div className="space-y-4 col-span-2">
                         <h1 className="text-3xl font-bold">Gigitools</h1>
                         <p className="text-[16px] opacity-60">
                             Premium digital tools for creators, <br />

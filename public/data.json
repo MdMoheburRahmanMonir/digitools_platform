@@ -102,6 +102,74 @@
         "Analytics dashboard"
       ],
       "button_text": "Buy Now"
+    },
+    {
+      "id": 7,
+      "img": "/images/videoEditor.png",
+      "title": "AI Video Creator",
+      "description": "Transform your text into professional-grade videos and animations instantly with AI narration.",
+      "price": 59,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "New",
+      "badge_color": "Green",
+      "features": [
+        "4K Export quality",
+        "AI Voiceovers",
+        "Custom avatars"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 8,
+      "img": "/images/seo.png",
+      "title": "SEO Optimizer AI",
+      "description": "Rank higher on search engines by generating high-quality SEO keywords and content reports.",
+      "price": 45,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "Best Seller",
+      "badge_color": "Yellow",
+      "features": [
+        "Backlink analysis",
+        "Keyword research",
+        "Competitor tracking"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 9,
+      "img": "/images/chatbot.png",
+      "title": "Smart Support Bot",
+      "description": "Provide 24/7 customer support with a high-quality AI chatbot that understands user intent.",
+      "price": 99,
+      "currency": "USD",
+      "billing_cycle": "Monthly",
+      "badge": "Popular",
+      "badge_color": "Blue",
+      "features": [
+        "Multilingual support",
+        "Live chat handoff",
+        "CRM integration"
+      ],
+      "button_text": "Buy Now"
+    },
+    {
+      "id": 10,
+      "img": "/images/analytics.png",
+      "title": "Market Insights AI",
+      "description": "Get high-quality market data and predictive analytics in seconds to grow your business faster.",
+      "price": 120,
+      "currency": "USD",
+      "billing_cycle": "Yearly",
+      "badge": "Premium",
+      "badge_color": "Purple",
+      "features": [
+        "Real-time data",
+        "Predictive modeling",
+        "Export reports"
+      ],
+      "button_text": "Buy Now"
     }
   ]
 }

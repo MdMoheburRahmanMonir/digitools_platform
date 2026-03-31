@@ -18,11 +18,11 @@ const Navbar = ({selectedItems}) => {
                 </div>
                 <div>
                     <ul className='flex gap-5 text-gray-700 font-light hidden  lg:flex'>
-                        <li className='cursor-pointer'>Products </li>
-                        <li className='cursor-pointer'>Features </li>
-                        <li className='cursor-pointer'>Pricing </li>
-                        <li className='cursor-pointer'>Testimonials </li>
-                        <li className='cursor-pointer'>FAQ </li>
+                        <li className='cursor-pointer hover:bg-blue-300 px-3 py-1 hover:rounded-full hover:px-3 hover:py-1  '>Products </li>
+                        <li className='cursor-pointer hover:bg-blue-300 px-3 py-1 hover:rounded-full hover:px-3 hover:py-1  '>Features </li>
+                        <li className='cursor-pointer hover:bg-blue-300 px-3 py-1 hover:rounded-full hover:px-3 hover:py-1  '>Pricing </li>
+                        <li className='cursor-pointer hover:bg-blue-300 px-3 py-1 hover:rounded-full hover:px-3 hover:py-1  '>Testimonials </li>
+                        <li className='cursor-pointer hover:bg-blue-300 px-3 py-1 hover:rounded-full hover:px-3 hover:py-1  '>FAQ </li>
                     </ul>
                     <div
                         tabIndex="-1"

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Banner from './assets/Component/Banner'
 import Digitaltoolsitem from './assets/Component/Digitaltoolsitem'
@@ -9,6 +9,8 @@ import { ToastContainer } from 'react-toastify';
 import GetstartedStapes from './assets/Component/GetstartedStapes'
 import WorkflowSection from './assets/Component/WorkflowSection'
 import Footer from './assets/Component/Footer'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const data = async () => {
   const response = await fetch('./data.json');
@@ -18,7 +20,13 @@ const data = async () => {
 const mainData = data();
 function App() {
   const [selectedItems, setSelectedItems] = useState([]);
-
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, 
+      mirror: true,
+      offset: 150,
+    });
+  }, []);
   return (
     <>
       <ToastContainer />
@@ -31,11 +39,11 @@ function App() {
         mainData={mainData}
         selectedItems={selectedItems}
         setSelectedItems={setSelectedItems}
-      ></Digitaltoolsitem>
+      ></Digitaltoolsitem> 
       <GetstartedStapes></GetstartedStapes>
       <PricingSection></PricingSection>
       <WorkflowSection></WorkflowSection>
-      <Footer></Footer> 
+      <Footer></Footer>
     </>
   )
 }

@@ -38,7 +38,7 @@ const Selectedcardsection = ({ selectedItems, setSelectedItems }) => {
                                                 <div key={index} className='flex justify-between bg-[#F9FAFC] rounded-3xl p-6 items-center'>
                                                     <div className='flex gap-4 items-center'>
                                                         <div className='border border-2 border-gray-300 rounded-full p-4 bg-white'>
-                                                            <img src={img} alt={title} />
+                                                            <img src={img} alt={title} className='w-9' />
                                                         </div>
                                                         <div className=''>
                                                             <h2 className='font-bold text-[20px]'>{title}</h2>

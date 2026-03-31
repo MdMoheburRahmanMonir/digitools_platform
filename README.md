@@ -1,16 +1,27 @@
-# React + Vite
+ # Project name.
+ ## ⚙️ (Digital tools) & services selling website.  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+ # A littel decription.
+ ## DIGITOOLS is a updated and and responsive SaaS (Softwer as a sarvice) type marketing website. This is use people like designer, digital creator, developer and entrepreneur who need digital tools for work porpous. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+--- 
 
-## React Compiler
+# Technology that what i use
+- React.js
+- Tailwind CSS, DaisyUI
+- JavaScript (ES6+)
+- React-Toastify (NPM Package)
+- JSON (for product data)
+- AOS (NPM Package)
+- Hamburger (NPM Package)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+# 3 Features about my project.
+1. I was implement product & cart tab to toggling and handover data to other tab. And when i click to   deleted then added cart will delete and notify me to top right corner. 
+2. Aos use for look like smarter this project and hamburger icon use for showing nev item data. And every btn have use toastify notify alert.
+3. When i click Buy Now btn then my  cart will add to the cart tab and it will show how much data is added to the card inside tha stor icon and card btn. 
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+

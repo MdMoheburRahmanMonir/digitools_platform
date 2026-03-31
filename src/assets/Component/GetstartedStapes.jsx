@@ -2,7 +2,7 @@ import React from 'react';
 
 const GetstartedStapes = () => {
     return (
-        <div className='w-full bg-[#F9FAFC]'>
+        <div data-aos="fade-down" data-aos-delay={100} className='w-full bg-[#F9FAFC]'>
             <div className='w-10/12 mx-auto flex flex-col gap-20 py-[120px] '>
                 <div className='text-center space-y-4 mb-10'>
                     <h1 className='font-extrabold text-5xl text-[#101727]'>Get Started in 3 stapes</h1>

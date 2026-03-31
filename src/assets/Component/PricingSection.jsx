@@ -4,7 +4,7 @@ import { toast } from 'react-toastify';
 
 const PricingSection = () => {
     return (
-        <div className='w-full bg-white'>
+        <div data-aos="zoom-in-up" data-aos-delay={100} className='w-full bg-white'>
             <div className='w-10/12 mx-auto flex flex-col gap-20 py-[120px] '>
                 <div className='text-center space-y-4 mb-10'>
                     <h1 className='font-extrabold text-5xl text-[#101727]'>Simple, Transparent Pricing</h1>
